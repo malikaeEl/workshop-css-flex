@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Figtree", sans-serif;
+}
+
+nav{
+    padding: 30px 30px;
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid rgb(221,225,224);
+}
+
+ul{
+     display:flex;
+}
+li{
+    list-style-type: none;
+    margin:auto;
+    justify-content: center;
+    margin: 10px;
+    
+}  
+a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+.button1,
+.button2{
+    border: 2px solid rgb(2,44,34);
+    padding: 10px;
+    border-radius: 50px;
+   
+}
+.button2{
+    background-color: rgb(2,44,34);
+    color: white;
+
+}
+
+.button1:hover{
+    background-color: rgb(2,44,34);
+    color: white;
+}
+/* ------------------------------section----------------------------------------- */
+section{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(Assets/bgd.png);
+    background-size:100% 80%;
+    background-repeat: no-repeat;
+
+}
+.top{
+    padding: 100px;
+    text-align: center; 
+   
+}
+h1{
+    padding: 20px;
+    font-size: 72px;
+    font-weight: 400;
+    color: rgb(29, 31, 30);
+
+}
+p{
+    color:rgb(100, 106, 105);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+form{
+    display: flex;
+    flex-direction: column ;
+    width: 500px;
+    border: 1px solid rgb(228,239,235);
+    border-radius: 50px;
+    padding: 20px;
+    background-color: #fff;
+
+}
+label{
+     margin: 10px;
+}
+input,select,option{
+    padding: 20px;
+    margin: 5px;
+    border: 3px solid rgb(228,239,235);
+    border-radius: 50px;
+
+}
+.submitbutton{
+    border: 1px solid rgb(2,44,34);
+    border-radius: 50px;
+    background-color: rgb(2,44,34);
+    color: white;
+    margin: 10px;
+}
+
